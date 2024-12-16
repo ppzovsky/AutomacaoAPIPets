@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Picles",
+    "status": "available",
+    "category": {
+      "name": "Cachorro"
+    },
+    "photoUrls" : ["https://www.portaltemponovo.com.br/wp-content/uploads/2020/06/peludinho-abrigo-vira-lata-vira-luxo-scaled.jpeg"]
+  },
+  {
+    "name": "Teddy Bear",
+    "status": "pending",
+    "category": {
+      "name": "Urso"
+    },
+    "photoUrls" : ["https://i.pinimg.com/736x/42/48/87/424887b927fe1d94cdda1e0190d8efae.jpg"]
+  },
+  {
+    "name": "Nemo",
+    "status": "sold",
+    "category": {
+      "name": "Peixe"
+    },
+    "photoUrls" : ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR32eWtMw33X0G1HjPXDHhUSESp2DBBF3J6ZQ&s"]
+  },
+  {
+    "name": "Dumbo",
+    "status": "available",
+    "category": {
+      "name": "Elefante"
+    },
+    "photoUrls" : ["https://t.ctcdn.com.br/ZiAacf0u5NBPXy0MOxDSHLdu8MY=/74x0:1318x700/1200x675/smart/i347214.jpeg"]
+  },
+  {
+    "name": "Frajola",
+    "status": "available",
+    "category": {
+      "name": "Gato"
+    },
+    "photoUrls" : ["https://gartic.com.br/imgs/mural/ho/holos/frajola.png"]
+  },
+  {
+    "name": "Scooby Doo",
+    "status": "pending",
+    "category": {
+      "name": "Cachorro"
+    },
+    "photoUrls" : ["https://static.wikia.nocookie.net/animeverso/images/0/00/EscombeduLA.png/revision/latest/scale-to-width-down/550?cb=20241202180535&path-prefix=pt-br"]
+  },
+  {
+    "name": "Louro José",
+    "status": "available",
+    "category": {
+      "name": "Pássaro"
+    },
+    "photoUrls" : ["https://s2-gshow.glbimg.com/uDV_kONsqqza9_g91uAS3DTCM58=/336x191/top/smart/https://s2.glbimg.com/7LcY0f0rbxY___uIOLYHjUZaWEs=/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/f/P/OBwzbAQZqDoPYEZ0ainQ/whatsapp-image-2020-11-02-at-14.59.20-1-.jpeg"]
+  },
+  {
+    "name": "Angu",
+    "status": "sold",
+    "category": {
+      "name": "Cachorro"
+    },
+    "photoUrls" : ["https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/03/27/1705862623-vira-lata-caramelo.jpg"]
+  },
+  {
+    "name": "Garfield",
+    "status": "available",
+    "category": {
+      "name": "Gato"
+    },
+    "photoUrls" : ["https://uploads.jovemnerd.com.br/wp-content/uploads/2022/08/garfield_animacao_chris_pratt_data_estreia__vjh06m0b.jpg"]
+  },
+  {
+    "name": "Blue",
+    "status": "pending",
+    "category": {
+      "name": "Pássaro"
+    },
+    "photoUrls" : ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhAnwoI3eMVHVMH2Fitur8lJtDKX56znorA&s"]
+  }
+]
