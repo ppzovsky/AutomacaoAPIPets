@@ -41,7 +41,7 @@ Funcionalidade: Gerenciamento de Pets
     Quando eu envio uma requisição GET para esse ID
     Então devo receber os detalhes do pet
 
- Cenário: Procurar um pet por ID inexistente
+  Cenário: Procurar um pet inexistente
     Dado que 231 seja o ID de um pet inexistente 
     Quando eu envio uma requisição GET para esse ID
     Então o sistema deve exibir a mensagem Pet Not Found
