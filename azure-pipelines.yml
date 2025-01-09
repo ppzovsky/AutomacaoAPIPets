@@ -1,0 +1,23 @@
+trigger:
+  - main
+
+pool:
+  name: maquinapessoal
+
+steps:
+  - script: npm install
+    displayName: 'Install Dependencies'
+
+  - script: npx cypress run
+    displayName: 'Run Cypress Tests'
+
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFiles: 'results/junit-*.xml'
+      testRunTitle: 'Cypress Test Results'
+
+  - task: PublishPipelineArtifact@1
+    inputs:
+      targetPath: 'cypress/evidences'
+      artifact: 'CypressEvidences'
+      publishLocation: 'pipeline'
