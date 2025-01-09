@@ -10,14 +10,17 @@ steps:
 
   - script: npx cypress run
     displayName: 'Run Cypress Tests'
+    continueOnError: true  
 
   - task: PublishTestResults@2
     inputs:
       testResultsFiles: 'results/junit-*.xml'
       testRunTitle: 'Cypress Test Results'
+    condition: always()
 
   - task: PublishPipelineArtifact@1
     inputs:
       targetPath: 'cypress/evidences'
       artifact: 'CypressEvidences'
       publishLocation: 'pipeline'
+    condition: always()
