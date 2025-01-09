@@ -12,7 +12,7 @@ Given('que eu possuo os detalhes de um usuário, incluindo nome de usuário, pri
     }).as('novoUsuario');
 })
 
-When('eu envio uma requisição POST para /user com esses dados', () => {
+When('eu envio uma requisição POST para user com esses dados', () => {
     cy.get('@novoUsuario').then((usuario) => {
         cy.request('POST', '/user', usuario).as('response');
     });
@@ -21,6 +21,6 @@ When('eu envio uma requisição POST para /user com esses dados', () => {
 Then('o usuário deve ser criado no sistema', function () {
     cy.get('@response').then((res) => {
     expect(res.status).to.eq(200);
-    expect(res.body).to.have.property('id');
+    expect(res.body).to.have.property('message');
   });
 });

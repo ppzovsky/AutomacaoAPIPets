@@ -3,7 +3,7 @@ Funcionalidade: Gerenciamento de Usuários
 
   Cenário: Criar um novo usuário
     Dado que eu possuo os detalhes de um usuário, incluindo nome de usuário, primeiro nome e senha
-    Quando eu envio uma requisição POST para "/user" com esses dados
+    Quando eu envio uma requisição POST para user com esses dados
     Então o usuário deve ser criado no sistema
 
   Cenário: Criar uma lista de usuários
