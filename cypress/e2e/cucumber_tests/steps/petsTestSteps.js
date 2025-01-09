@@ -33,7 +33,7 @@ Given('que eu possuo uma imagem de um pet', () => {
 When('eu envio uma requisicao para atualizar a imagem', function () {
     let petId = Math.floor(Math.random() * (10 - 1) + 1);
     cy.get('@imagemPet').then((imagemBase64) => {
-      // Converter base64 para Blob
+      
       const byteCharacters = atob(imagemBase64); 
       const byteArrays = new Uint8Array(byteCharacters.length); 
       for (let i = 0; i < byteCharacters.length; i++) {
